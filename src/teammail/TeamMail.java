@@ -8,6 +8,12 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -22,6 +28,7 @@ public class TeamMail extends javax.swing.JFrame {
      */
     public TeamMail() {
         initComponents();
+        cargarBaseDatos();
     }
 
     /**
@@ -497,76 +504,94 @@ public class TeamMail extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>
-    
+
     //Copiar
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         copy(enviar.getText());
-    }                                        
+    }
 
     //Pegar
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         recibido.setText(paste());
-    }                                        
+    }
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    //Limpiar Todo
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         enviar.setText("");
         recibido.setText("");
-    } 
+        limpiarCheckbox();
+    }
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    //Limpiar A
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         recibido.setText("");
-    }                                        
+    }
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    //Limpiar A
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         enviar.setText("");
-    }                                        
+        limpiarCheckbox();
+    }
 
-    private void arbFocusLost(java.awt.event.FocusEvent evt) {                              
+    private void arbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
 
-    }                             
+    }
 
-    private void cphFocusLost(java.awt.event.FocusEvent evt) {                              
+    private void cphFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-    }                             
+    }
 
-    private void cpsFocusLost(java.awt.event.FocusEvent evt) {                              
+    private void cpsFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-    }                             
+    }
 
-    private void desFocusLost(java.awt.event.FocusEvent evt) {                              
+    private void desFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here
-    }                             
+    }
 
-    private void crbFocusLost(java.awt.event.FocusEvent evt) {                              
+    private void crbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-    }                             
+    }
 
-    private void checkARBActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void checkARBActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-    }                                        
+        depurarTexto();
+    }
 
-    private void checkCPHActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void checkCPHActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-    }                                        
+        depurarTexto();
+    }
 
-    private void checkCPSActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void checkCPSActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-    }                                        
+        depurarTexto();
+    }
 
-    private void checkDESActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void checkDESActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-    }                                        
+        depurarTexto();
+    }
 
-    private void checkCRBActionPerformed(java.awt.event.ActionEvent evt) {                                         
+    private void checkCRBActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-    }  
-    
+        depurarTexto();
+    }
+
+    private void botonGuardarActionPerformed(java.awt.event.ActionEvent evt) {
+        try {
+            guardarBaseDatos();
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -689,4 +714,74 @@ public class TeamMail extends javax.swing.JFrame {
         return resultado;
 
     }
+
+    public void limpiarCheckbox() {
+        checkARB.setSelected(false);
+        checkCPH.setSelected(false);
+        checkCPS.setSelected(false);
+        checkDES.setSelected(false);
+        checkCRB.setSelected(false);
+    }
+
+    public void depurarTexto() {
+        enviar.setText("");
+        if (checkARB.isSelected()) {
+            enviar.append(arb.getText() + "\n\n");
+        }
+        if (checkCPH.isSelected()) {
+            enviar.append(cph.getText() + "\n\n");
+        }
+        if (checkCPS.isSelected()) {
+            enviar.append(cps.getText() + "\n\n");
+        }
+        if (checkDES.isSelected()) {
+            enviar.append(des.getText() + "\n\n");
+        }
+        if (checkCRB.isSelected()) {
+            enviar.append(crb.getText() + "\n");
+        }
+    }
+
+    public void cargarBaseDatos() {
+
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/banco1", "root", "");
+            Statement sentencia = conexion.createStatement();
+            ResultSet registro = sentencia.executeQuery("select * from principal");
+            while (registro.next()) {
+                arb.setText(registro.getString(1));
+                cph.setText(registro.getString(2));
+                cps.setText(registro.getString(3));
+                des.setText(registro.getString(4));
+                crb.setText(registro.getString(5));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void guardarBaseDatos() throws ClassNotFoundException {
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/banco1", "root", "");
+            //Statement sentencia=conexion.createStatement();
+            PreparedStatement sentencia = conexion.prepareStatement("UPDATE PRINCIPAL SET ARB =?, CPH=?, CPS=?, DES=?, CRB=? WHERE NUMERO=1");
+            //ResultSetMetaData metaDatos=resultado.getMetaData();
+            //while(resultado.next()){
+            sentencia.setString(1, arb.getText());
+            sentencia.setString(2, cph.getText());
+            sentencia.setString(3, cps.getText());
+            sentencia.setString(4, des.getText());
+            sentencia.setString(5, crb.getText());
+            //persona.nombres=resultado.getString(2);
+            //}
+            sentencia.executeUpdate();
+            sentencia.close();
+            conexion.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
