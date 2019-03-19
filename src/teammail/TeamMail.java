@@ -31,6 +31,7 @@ public class TeamMail extends javax.swing.JFrame {
         initComponents();
         conexion.CrearBd();
         conect = conexion.cargarDB();
+        conexionRegistros();
         if (conect != null) {
             cargarBaseDatos();
         }
@@ -753,7 +754,7 @@ public class TeamMail extends javax.swing.JFrame {
 
     private void conexionRegistros() {
         conect = conexion.cargarDB();
-        System.out.println(conect);
+        
         if (conect != null) {
             try {
                 Statement orden = conect.createStatement();
@@ -763,13 +764,15 @@ public class TeamMail extends javax.swing.JFrame {
                 orden.executeUpdate(crear);
                 System.out.println("Registro Creado con Exito!");
             } catch (SQLException ex) {
-                Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
+                System.out.println("Error: "+ex);
             }
         }
     }
     
     public void cargarBaseDatos() {
 
+        conect = conexion.cargarDB();
+        
         try {
             Statement orden = conect.createStatement();
             ResultSet r = orden.executeQuery("select*from mensaje where id=1");
