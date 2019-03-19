@@ -1,5 +1,6 @@
 package teammail;
 
+import conexion.Conexion;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -28,7 +29,11 @@ public class TeamMail extends javax.swing.JFrame {
      */
     public TeamMail() {
         initComponents();
-        cargarBaseDatos();
+        conexion.CrearBd();
+        conect = conexion.cargarDB();
+        if (conect != null) {
+            cargarBaseDatos();
+        }
     }
 
     /**
@@ -538,25 +543,34 @@ public class TeamMail extends javax.swing.JFrame {
         limpiarCheckbox();
     }
 
+    //Guardar Datos al perder foco de TextArea arb
     private void arbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-
+        guardarBaseDatos();
     }
 
+    //Guardar Datos al perder foco de TextArea cph
     private void cphFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
+        guardarBaseDatos();
     }
 
+    //Guardar Datos al perder foco de TextArea cps
     private void cpsFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
+        guardarBaseDatos();
     }
 
+    //Guardar Datos al perder foco de TextArea des
     private void desFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here
+        guardarBaseDatos();
     }
 
+    //Guardar Datos al perder foco de TextArea crb
     private void crbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
+        guardarBaseDatos();
     }
 
     private void checkARBActionPerformed(java.awt.event.ActionEvent evt) {
@@ -582,14 +596,6 @@ public class TeamMail extends javax.swing.JFrame {
     private void checkCRBActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         depurarTexto();
-    }
-
-    private void botonGuardarActionPerformed(java.awt.event.ActionEvent evt) {
-        try {
-            guardarBaseDatos();
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 
     /**
@@ -680,6 +686,9 @@ public class TeamMail extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea recibido;
     // End of variables declaration         
+    //Variables
+    Conexion conexion = new Conexion();
+    Connection conect;
 
     /**
      * Metodos
@@ -742,45 +751,65 @@ public class TeamMail extends javax.swing.JFrame {
         }
     }
 
+    private void conexionRegistros() {
+        conect = conexion.cargarDB();
+        System.out.println(conect);
+        if (conect != null) {
+            try {
+                Statement orden = conect.createStatement();
+                String crear = "insert into mensaje(id,arb,cph,cps,des,crb,descripcion) values(1"
+                        + ",'" + arb.getText() + "','" + cph.getText() + "','" + cps.getText() + "','" + des.getText()
+                        + "','" + crb.getText() + "','Hispano Soluciones')";
+                orden.executeUpdate(crear);
+                System.out.println("Registro Creado con Exito!");
+            } catch (SQLException ex) {
+                Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }
+    
     public void cargarBaseDatos() {
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/banco1", "root", "");
-            Statement sentencia = conexion.createStatement();
-            ResultSet registro = sentencia.executeQuery("select * from principal");
-            while (registro.next()) {
-                arb.setText(registro.getString(1));
-                cph.setText(registro.getString(2));
-                cps.setText(registro.getString(3));
-                des.setText(registro.getString(4));
-                crb.setText(registro.getString(5));
+            Statement orden = conect.createStatement();
+            ResultSet r = orden.executeQuery("select*from mensaje where id=1");
+
+            if (r.next()) {
+                arb.setText(r.getString("arb"));
+                cph.setText(r.getString("cph"));
+                cps.setText(r.getString("cps"));
+                des.setText(r.getString("des"));
+                crb.setText(r.getString("crb"));
+
             }
-        } catch (Exception e) {
-            e.printStackTrace();
+
+            System.out.println("Registro Cargado!");
+            r.close();
+            orden.close();
+
+        } catch (SQLException ex) {
+            System.out.println("Error: "+ex);
         }
     }
 
-    public void guardarBaseDatos() throws ClassNotFoundException {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/banco1", "root", "");
-            //Statement sentencia=conexion.createStatement();
-            PreparedStatement sentencia = conexion.prepareStatement("UPDATE PRINCIPAL SET ARB =?, CPH=?, CPS=?, DES=?, CRB=? WHERE NUMERO=1");
-            //ResultSetMetaData metaDatos=resultado.getMetaData();
-            //while(resultado.next()){
-            sentencia.setString(1, arb.getText());
-            sentencia.setString(2, cph.getText());
-            sentencia.setString(3, cps.getText());
-            sentencia.setString(4, des.getText());
-            sentencia.setString(5, crb.getText());
-            //persona.nombres=resultado.getString(2);
-            //}
-            sentencia.executeUpdate();
-            sentencia.close();
-            conexion.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
+    public void guardarBaseDatos() {
+        conect = conexion.cargarDB();
+
+        if (conect != null) {
+            try {
+                Statement orden = conect.createStatement();
+                String editar = "update mensaje set arb='" + arb.getText() + "',cph='" + cph.getText() + "',cps='"
+                        + cps.getText() + "',des='" + des.getText() + "',crb='" + crb.getText() + "' where id=1";
+
+                orden.executeUpdate(editar);
+
+                System.out.println("Registro Editado!");
+
+                conect.close();
+                orden.close();
+            } catch (SQLException ex) {
+                System.out.println("Error: "+ex);
+            }
         }
     }
 
