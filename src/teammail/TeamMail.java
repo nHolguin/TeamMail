@@ -10,8 +10,6 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -754,25 +752,44 @@ public class TeamMail extends javax.swing.JFrame {
 
     private void conexionRegistros() {
         conect = conexion.cargarDB();
-        
-        if (conect != null) {
-            try {
-                Statement orden = conect.createStatement();
-                String crear = "insert into mensaje(id,arb,cph,cps,des,crb,descripcion) values(1"
-                        + ",'" + arb.getText() + "','" + cph.getText() + "','" + cps.getText() + "','" + des.getText()
-                        + "','" + crb.getText() + "','Hispano Soluciones')";
-                orden.executeUpdate(crear);
-                System.out.println("Registro Creado con Exito!");
-            } catch (SQLException ex) {
-                System.out.println("Error: "+ex);
+        boolean resultado = false;
+
+        try {
+            Statement orden1 = conect.createStatement();
+            ResultSet r1 = orden1.executeQuery("select*from mensaje where id=1");
+            if (r1.next()) {
+                resultado = true;
             }
+            
+            r1.close();
+            orden1.close();
+            
+        } catch (SQLException ex) {
+            Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        if (resultado == false) {
+            if (conect != null) {
+                try {
+                    Statement orden = conect.createStatement();
+                    String crear = "insert into mensaje(id,arb,cph,cps,des,crb,descripcion) values(1"
+                            + ",'" + arb.getText() + "','" + cph.getText() + "','" + cps.getText() + "','" + des.getText()
+                            + "','" + crb.getText() + "','Hispano Soluciones')";
+
+                    orden.executeUpdate(crear);
+                    System.out.println("Registro Creado con Exito!");
+                } catch (SQLException ex) {
+                    System.out.println("Error: " + ex);
+                }
+            }
+        } else {
+            System.out.println("El Registro ya fue creado anteriormente!");
         }
     }
-    
+
     public void cargarBaseDatos() {
 
         conect = conexion.cargarDB();
-        
+
         try {
             Statement orden = conect.createStatement();
             ResultSet r = orden.executeQuery("select*from mensaje where id=1");
@@ -791,7 +808,7 @@ public class TeamMail extends javax.swing.JFrame {
             orden.close();
 
         } catch (SQLException ex) {
-            System.out.println("Error: "+ex);
+            System.out.println("Error: " + ex);
         }
     }
 
@@ -811,7 +828,7 @@ public class TeamMail extends javax.swing.JFrame {
                 conect.close();
                 orden.close();
             } catch (SQLException ex) {
-                System.out.println("Error: "+ex);
+                System.out.println("Error: " + ex);
             }
         }
     }
