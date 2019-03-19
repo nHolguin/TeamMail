@@ -146,18 +146,18 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                                .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                                .addContainerGap())
         );
 
         jPanel3.add(jPanel7);
@@ -176,18 +176,18 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                                .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                                .addContainerGap())
         );
 
         jPanel3.add(jPanel8);
@@ -210,12 +210,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel6);
@@ -233,12 +233,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel15);
@@ -258,12 +258,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel9);
@@ -281,12 +281,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel13Layout.setVerticalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel13);
@@ -306,12 +306,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel10);
@@ -329,12 +329,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
         jPanel14Layout.setHorizontalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel14Layout.setVerticalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel14);
@@ -354,12 +354,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel11);
@@ -377,12 +377,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
         jPanel16.setLayout(jPanel16Layout);
         jPanel16Layout.setHorizontalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel16Layout.setVerticalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel16);
@@ -402,12 +402,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel12);
@@ -425,12 +425,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
         jPanel17Layout.setHorizontalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel17Layout.setVerticalGroup(
-            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel5.add(jPanel17);
@@ -540,18 +540,18 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
         jPanel21Layout.setHorizontalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel21Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel21Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                                .addContainerGap())
         );
         jPanel21Layout.setVerticalGroup(
-            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel21Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel21Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane13, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                                .addContainerGap())
         );
 
         jPanel18.add(jPanel21);
@@ -570,18 +570,18 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
         jPanel22.setLayout(jPanel22Layout);
         jPanel22Layout.setHorizontalGroup(
-            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel22Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel22Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 304, Short.MAX_VALUE)
+                                .addContainerGap())
         );
         jPanel22Layout.setVerticalGroup(
-            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
-                .addContainerGap())
+                jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 179, Short.MAX_VALUE)
+                                .addContainerGap())
         );
 
         jPanel18.add(jPanel22);
@@ -592,6 +592,11 @@ public class TeamMail extends javax.swing.JFrame {
         checkARB2.setBackground(new java.awt.Color(255, 255, 255));
         checkARB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkARB2.setText("ARB");
+        checkARB2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkARB2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkARB2);
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
@@ -599,17 +604,22 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel29Layout = new javax.swing.GroupLayout(jPanel29);
         jPanel29.setLayout(jPanel29Layout);
         jPanel29Layout.setHorizontalGroup(
-            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel29Layout.setVerticalGroup(
-            jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel29Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel29);
 
         jButton7.setText("Copy to B");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton7);
 
         jPanel31.setBackground(new java.awt.Color(255, 255, 255));
@@ -617,12 +627,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
         jPanel31.setLayout(jPanel31Layout);
         jPanel31Layout.setHorizontalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel31Layout.setVerticalGroup(
-            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel31);
@@ -630,6 +640,11 @@ public class TeamMail extends javax.swing.JFrame {
         checkCPH2.setBackground(new java.awt.Color(255, 255, 255));
         checkCPH2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCPH2.setText("CPH");
+        checkCPH2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCPH2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCPH2);
 
         jPanel28.setBackground(new java.awt.Color(255, 255, 255));
@@ -637,17 +652,22 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
         jPanel28.setLayout(jPanel28Layout);
         jPanel28Layout.setHorizontalGroup(
-            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel28Layout.setVerticalGroup(
-            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel28);
 
         jButton6.setText("Paste in A");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton6);
 
         jPanel30.setBackground(new java.awt.Color(255, 255, 255));
@@ -655,12 +675,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel30Layout = new javax.swing.GroupLayout(jPanel30);
         jPanel30.setLayout(jPanel30Layout);
         jPanel30Layout.setHorizontalGroup(
-            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel30Layout.setVerticalGroup(
-            jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel30);
@@ -668,6 +688,11 @@ public class TeamMail extends javax.swing.JFrame {
         checkCPS2.setBackground(new java.awt.Color(255, 255, 255));
         checkCPS2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCPS2.setText("CPS");
+        checkCPS2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCPS2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCPS2);
 
         jPanel32.setBackground(new java.awt.Color(255, 255, 255));
@@ -675,17 +700,22 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
         jPanel32.setLayout(jPanel32Layout);
         jPanel32Layout.setHorizontalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel32Layout.setVerticalGroup(
-            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel32);
 
         jButton9.setText("Clean All");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton9);
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
@@ -693,12 +723,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
         jPanel27.setLayout(jPanel27Layout);
         jPanel27Layout.setHorizontalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel27Layout.setVerticalGroup(
-            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel27);
@@ -706,6 +736,11 @@ public class TeamMail extends javax.swing.JFrame {
         checkDES2.setBackground(new java.awt.Color(255, 255, 255));
         checkDES2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkDES2.setText("DES");
+        checkDES2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkDES2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkDES2);
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
@@ -713,17 +748,22 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
         jPanel23.setLayout(jPanel23Layout);
         jPanel23Layout.setHorizontalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel23Layout.setVerticalGroup(
-            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel23);
 
         jButton8.setText("Clean A");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton8);
 
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
@@ -731,12 +771,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
         jPanel25.setLayout(jPanel25Layout);
         jPanel25Layout.setHorizontalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel25Layout.setVerticalGroup(
-            jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel25);
@@ -744,6 +784,11 @@ public class TeamMail extends javax.swing.JFrame {
         checkCRB2.setBackground(new java.awt.Color(255, 255, 255));
         checkCRB2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         checkCRB2.setText("CRB");
+        checkCRB2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                checkCRB2ActionPerformed(evt);
+            }
+        });
         jPanel20.add(checkCRB2);
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
@@ -751,17 +796,22 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
         jPanel26.setLayout(jPanel26Layout);
         jPanel26Layout.setHorizontalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel26Layout.setVerticalGroup(
-            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel26);
 
         jButton10.setText("Clean B");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jPanel20.add(jButton10);
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
@@ -769,12 +819,12 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
         jPanel24Layout.setHorizontalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 81, Short.MAX_VALUE)
+                jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 81, Short.MAX_VALUE)
         );
         jPanel24Layout.setVerticalGroup(
-            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
+                jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel20.add(jPanel24);
@@ -792,6 +842,11 @@ public class TeamMail extends javax.swing.JFrame {
         arb2.setRows(5);
         arb2.setToolTipText("ARB");
         arb2.setWrapStyleWord(true);
+        arb2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                arb2FocusLost(evt);
+            }
+        });
         jScrollPane8.setViewportView(arb2);
 
         jPanel19.add(jScrollPane8);
@@ -802,6 +857,11 @@ public class TeamMail extends javax.swing.JFrame {
         cph2.setRows(5);
         cph2.setToolTipText("CPH");
         cph2.setWrapStyleWord(true);
+        cph2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                cph2FocusLost(evt);
+            }
+        });
         jScrollPane9.setViewportView(cph2);
 
         jPanel19.add(jScrollPane9);
@@ -812,6 +872,11 @@ public class TeamMail extends javax.swing.JFrame {
         cps2.setRows(5);
         cps2.setToolTipText("CPS");
         cps2.setWrapStyleWord(true);
+        cps2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                cps2FocusLost(evt);
+            }
+        });
         jScrollPane10.setViewportView(cps2);
 
         jPanel19.add(jScrollPane10);
@@ -822,6 +887,11 @@ public class TeamMail extends javax.swing.JFrame {
         des2.setRows(5);
         des2.setToolTipText("DES");
         des2.setWrapStyleWord(true);
+        des2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                des2FocusLost(evt);
+            }
+        });
         jScrollPane11.setViewportView(des2);
 
         jPanel19.add(jScrollPane11);
@@ -832,6 +902,11 @@ public class TeamMail extends javax.swing.JFrame {
         crb2.setRows(5);
         crb2.setToolTipText("CRB");
         crb2.setWrapStyleWord(true);
+        crb2.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                crb2FocusLost(evt);
+            }
+        });
         jScrollPane12.setViewportView(crb2);
 
         jPanel19.add(jScrollPane12);
@@ -843,17 +918,21 @@ public class TeamMail extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTabbedPane1)
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 431, Short.MAX_VALUE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 431, Short.MAX_VALUE)
         );
 
         pack();
-    }// </editor-fold> 
+    }// </editor-fold>
 
+    /**
+     *
+     * Tab 1 - Hispano Soluciones
+     */
     //Copiar
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
@@ -871,7 +950,7 @@ public class TeamMail extends javax.swing.JFrame {
         // TODO add your handling code here:
         enviar.setText("");
         recibido.setText("");
-        limpiarCheckbox();
+        limpiarCheckbox(1);
     }
 
     //Limpiar A
@@ -880,66 +959,153 @@ public class TeamMail extends javax.swing.JFrame {
         recibido.setText("");
     }
 
-    //Limpiar A
+    //Limpiar B
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
         enviar.setText("");
-        limpiarCheckbox();
+        limpiarCheckbox(1);
     }
 
     //Guardar Datos al perder foco de TextArea arb
     private void arbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-        guardarBaseDatos();
+        guardarBaseDatos(1);
     }
 
     //Guardar Datos al perder foco de TextArea cph
     private void cphFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-        guardarBaseDatos();
+        guardarBaseDatos(1);
     }
 
     //Guardar Datos al perder foco de TextArea cps
     private void cpsFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-        guardarBaseDatos();
+        guardarBaseDatos(1);
     }
 
     //Guardar Datos al perder foco de TextArea des
     private void desFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here
-        guardarBaseDatos();
+        guardarBaseDatos(1);
     }
 
     //Guardar Datos al perder foco de TextArea crb
     private void crbFocusLost(java.awt.event.FocusEvent evt) {
         // TODO add your handling code here:
-        guardarBaseDatos();
+        guardarBaseDatos(1);
     }
 
     private void checkARBActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        depurarTexto();
+        depurarTexto(1);
     }
 
     private void checkCPHActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        depurarTexto();
+        depurarTexto(1);
     }
 
     private void checkCPSActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        depurarTexto();
+        depurarTexto(1);
     }
 
     private void checkDESActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        depurarTexto();
+        depurarTexto(1);
     }
 
     private void checkCRBActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
-        depurarTexto();
+        depurarTexto(1);
+    }
+
+    /**
+     *
+     * Tab 2 - Proyecto 2
+     */
+    //Pegar
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        recibido1.setText(paste());
+    }
+
+    //Copiar
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        copy(enviar2.getText());
+    }
+
+    //Limpiar Todo
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        enviar2.setText("");
+        recibido1.setText("");
+        limpiarCheckbox(2);
+    }
+
+    //Limpiar A
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        recibido1.setText("");
+    }
+
+    //Limpiar B
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        enviar2.setText("");
+        limpiarCheckbox(2);
+    }
+
+    private void checkARB2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        depurarTexto(2);
+    }
+
+    private void checkCPH2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        depurarTexto(2);
+    }
+
+    private void checkCPS2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        depurarTexto(2);
+    }
+
+    private void checkDES2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        depurarTexto(2);
+    }
+
+    private void checkCRB2ActionPerformed(java.awt.event.ActionEvent evt) {
+        // TODO add your handling code here:
+        depurarTexto(2);
+    }
+
+    private void arb2FocusLost(java.awt.event.FocusEvent evt) {
+        // TODO add your handling code here:
+        guardarBaseDatos(2);
+    }
+
+    private void cph2FocusLost(java.awt.event.FocusEvent evt) {
+        // TODO add your handling code here:
+        guardarBaseDatos(2);
+    }
+
+    private void cps2FocusLost(java.awt.event.FocusEvent evt) {
+        // TODO add your handling code here:
+        guardarBaseDatos(2);
+    }
+
+    private void des2FocusLost(java.awt.event.FocusEvent evt) {
+        // TODO add your handling code here:
+        guardarBaseDatos(2);
+    }
+
+    private void crb2FocusLost(java.awt.event.FocusEvent evt) {
+        // TODO add your handling code here:
+        guardarBaseDatos(2);
     }
 
     /**
@@ -1107,50 +1273,105 @@ public class TeamMail extends javax.swing.JFrame {
 
     }
 
-    public void limpiarCheckbox() {
-        checkARB.setSelected(false);
-        checkCPH.setSelected(false);
-        checkCPS.setSelected(false);
-        checkDES.setSelected(false);
-        checkCRB.setSelected(false);
+    public void limpiarCheckbox(int comparador) {
+
+        if (comparador == 1) {
+            //Tab 1
+            checkARB.setSelected(false);
+            checkCPH.setSelected(false);
+            checkCPS.setSelected(false);
+            checkDES.setSelected(false);
+            checkCRB.setSelected(false);
+        }
+
+        if (comparador == 2) {
+            //Tab 2
+            checkARB2.setSelected(false);
+            checkCPH2.setSelected(false);
+            checkCPS2.setSelected(false);
+            checkDES2.setSelected(false);
+            checkCRB2.setSelected(false);
+        }
     }
 
-    public void depurarTexto() {
-        enviar.setText("");
-        if (checkARB.isSelected()) {
-            enviar.append(arb.getText() + "\n\n");
+    public void depurarTexto(int comparador) {
+
+        //Tab 1
+        if (comparador == 1) {
+            enviar.setText("");
+            if (checkARB.isSelected()) {
+                enviar.append(arb.getText() + "\n\n");
+            }
+            if (checkCPH.isSelected()) {
+                enviar.append(cph.getText() + "\n\n");
+            }
+            if (checkCPS.isSelected()) {
+                enviar.append(cps.getText() + "\n\n");
+            }
+            if (checkDES.isSelected()) {
+                enviar.append(des.getText() + "\n\n");
+            }
+            if (checkCRB.isSelected()) {
+                enviar.append(crb.getText() + "\n");
+            }
         }
-        if (checkCPH.isSelected()) {
-            enviar.append(cph.getText() + "\n\n");
-        }
-        if (checkCPS.isSelected()) {
-            enviar.append(cps.getText() + "\n\n");
-        }
-        if (checkDES.isSelected()) {
-            enviar.append(des.getText() + "\n\n");
-        }
-        if (checkCRB.isSelected()) {
-            enviar.append(crb.getText() + "\n");
+
+        //Tab 2
+        if (comparador == 2) {
+            enviar2.setText("");
+            if (checkARB2.isSelected()) {
+                enviar2.append(arb2.getText() + "\n\n");
+            }
+            if (checkCPH2.isSelected()) {
+                enviar2.append(cph2.getText() + "\n\n");
+            }
+            if (checkCPS2.isSelected()) {
+                enviar2.append(cps2.getText() + "\n\n");
+            }
+            if (checkDES2.isSelected()) {
+                enviar2.append(des2.getText() + "\n\n");
+            }
+            if (checkCRB2.isSelected()) {
+                enviar2.append(crb2.getText() + "\n");
+            }
         }
     }
 
     private void conexionRegistros() {
         conect = conexion.cargarDB();
         boolean resultado = false;
+        boolean resultado2 = false;
 
+        //Tab 1
         try {
             Statement orden1 = conect.createStatement();
             ResultSet r1 = orden1.executeQuery("select*from mensaje where id=1");
             if (r1.next()) {
                 resultado = true;
             }
-            
+
             r1.close();
             orden1.close();
-            
+
         } catch (SQLException ex) {
             Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
         }
+        //Tab 2
+        try {
+            Statement orden2 = conect.createStatement();
+            ResultSet r2 = orden2.executeQuery("select*from mensaje where id=2");
+            if (r2.next()) {
+                resultado2 = true;
+            }
+
+            r2.close();
+            orden2.close();
+
+        } catch (SQLException ex) {
+            Logger.getLogger(TeamMail.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        //Tab 1
         if (resultado == false) {
             if (conect != null) {
                 try {
@@ -1168,12 +1389,31 @@ public class TeamMail extends javax.swing.JFrame {
         } else {
             System.out.println("El Registro ya fue creado anteriormente!");
         }
+        //Tab 2
+        if (resultado2 == false) {
+            if (conect != null) {
+                try {
+                    Statement orden = conect.createStatement();
+                    String crear = "insert into mensaje(id,arb,cph,cps,des,crb,descripcion) values(2"
+                            + ",'" + arb.getText() + "','" + cph.getText() + "','" + cps.getText() + "','" + des.getText()
+                            + "','" + crb.getText() + "','Proyecto 2')";
+
+                    orden.executeUpdate(crear);
+                    System.out.println("Registro Creado con Exito!");
+                } catch (SQLException ex) {
+                    System.out.println("Error: " + ex);
+                }
+            }
+        } else {
+            System.out.println("El Registro ya fue creado anteriormente!");
+        }
     }
 
     public void cargarBaseDatos() {
 
         conect = conexion.cargarDB();
 
+        //Tab 1
         try {
             Statement orden = conect.createStatement();
             ResultSet r = orden.executeQuery("select*from mensaje where id=1");
@@ -1187,23 +1427,54 @@ public class TeamMail extends javax.swing.JFrame {
 
             }
 
-            System.out.println("Registro Cargado!");
+            System.out.println("Registro Tab 1 Cargado!");
             r.close();
             orden.close();
 
         } catch (SQLException ex) {
             System.out.println("Error: " + ex);
         }
+        //Tab 2
+        try {
+            Statement orden2 = conect.createStatement();
+            ResultSet r2 = orden2.executeQuery("select*from mensaje where id=2");
+
+            if (r2.next()) {
+                arb2.setText(r2.getString("arb"));
+                cph2.setText(r2.getString("cph"));
+                cps2.setText(r2.getString("cps"));
+                des2.setText(r2.getString("des"));
+                crb2.setText(r2.getString("crb"));
+
+            }
+
+            System.out.println("Registro Tab 2 Cargado!");
+            r2.close();
+            orden2.close();
+
+        } catch (SQLException ex) {
+            System.out.println("Error: " + ex);
+        }
+        
     }
 
-    public void guardarBaseDatos() {
+    public void guardarBaseDatos(int id) {
         conect = conexion.cargarDB();
+        String editar;
 
         if (conect != null) {
             try {
                 Statement orden = conect.createStatement();
-                String editar = "update mensaje set arb='" + arb.getText() + "',cph='" + cph.getText() + "',cps='"
-                        + cps.getText() + "',des='" + des.getText() + "',crb='" + crb.getText() + "' where id=1";
+                
+                if(id == 1){
+                    editar = "update mensaje set arb='" + arb.getText() + "',cph='" + cph.getText() + "',cps='"
+                        + cps.getText() + "',des='" + des.getText() + "',crb='" + crb.getText() + "' where id="+id;
+                }
+                else {
+                    editar = "update mensaje set arb='" + arb2.getText() + "',cph='" + cph2.getText() + "',cps='"
+                        + cps2.getText() + "',des='" + des2.getText() + "',crb='" + crb2.getText() + "' where id="+id;
+                }
+                
 
                 orden.executeUpdate(editar);
 
